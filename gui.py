@@ -57,7 +57,7 @@ class GUI(Tk):
         self.status_text = Label(self, text="", font=("Courier", 9), wraplength=350, justify="center")
         self.status_text.grid(column=0, row=9, columnspan=2, padx=5, pady=10)
 
-        self.label_credit = Label(self, text="https://github.com/harpsingh/pytube-gui",
+        self.label_credit = Label(self, text="https://github.com/harpsingh/youtube-downloader",
                                   font=("Arial", 9, "underline"), fg="blue")
         self.label_credit.grid(column=0, row=11, columnspan=2)
-        self.label_credit.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/harpsingh/pytube-gui"))
+        self.label_credit.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/harpsingh/youtube-downloader"))
