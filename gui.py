@@ -20,8 +20,8 @@ class GUI(Tk):
         super().__init__()
         self.title("YouTube Downloader")
         self.config(padx=20, pady=10)
-        # self.geometry("400x460")
-        # self.resizable(False, False)
+        icon = PhotoImage(file=resource_path("images/downloader-icon.png"))
+        self.iconphoto(False, icon)
 
         self.label_url = Label(self, text="Paste YouTube link here and click \"Load\":", font=("Arial", 10))
         self.label_url.grid(column=0, row=0, columnspan=2, sticky="W", pady=5)
