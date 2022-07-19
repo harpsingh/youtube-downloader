@@ -8,7 +8,7 @@ A GUI wrapper written around [pytube](https://pypi.org/project/pytube/) library 
 # Usage
 * Install ffmpeg. The easiest way is to install it using chocolatey ```choco install ffmpeg-full```
 * Clone repository ```git clone https://github.com/harpsingh/youtube-downloader.git```
-* Change to directory ```cd youtube-downloader```
+* Change to cloned directory ```cd youtube-downloader```
 * Create virtual environment ```python -m venv venv```
 * Install requirements ```pip install -r requirements.txt```
 * Run main.py ```python main.py```
